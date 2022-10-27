@@ -1,7 +1,8 @@
 .lead__subtitle {
   color: #fff;  
   margin: 32px auto 0;
-  width: 640px;
+  max-width: 640px;   /* исправлено замечание*/
+  width: 100%;        /* исправлено замечание*/
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
@@ -9,7 +10,7 @@
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .lead__subtitle {
     max-width: 288px;
     margin-top: 16px;

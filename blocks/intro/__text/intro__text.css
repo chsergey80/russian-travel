@@ -1,17 +1,19 @@
 .intro__text {
   color: #fff;  
-  margin: 0;
-  width: 690px;
-  margin-top: 40px;
+  margin: 40px 0 0 0;    /* исправлено замечание*/
+  max-width: 690px;      /* исправлено замечание*/
+  width: 100%;
+  /*margin-top: 40px;*/   /* исправлено замечание*/
   font-size: 16px;
-  line-height: 26px;
+  line-height: 163%;
   font-weight: 400;
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .intro__text {
-    width: 288px;
+    max-width: 288px;   /* исправлено замечание*/
+    width: 100%;        /* исправлено замечание*/
 
   }
 }

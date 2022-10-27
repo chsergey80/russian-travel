@@ -1,7 +1,7 @@
 .lead__caption {
   color: #fff;  
-  margin: 0;
-  margin-top: 8px;
+  margin: 8px 0 0 0;   /* исправлено замечание*/
+  /*margin-top: 8px;*/   /* исправлено замечание*/
   font-size: 10px;
   line-height: 14px;
   font-weight: 400;

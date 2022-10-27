@@ -1,7 +1,7 @@
 .place__paragraph {
   color: #FFFFFF;  
-  margin: 0;
-  margin-bottom: 26px;
+  margin: 0 0 26px 0;   /* исправлено замечание*/
+  /*margin-bottom: 26px;*/   /* исправлено замечание*/
   font-size: 18px;
   line-height: 29px;
   font-weight: 400;
@@ -13,7 +13,7 @@
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
     padding-left: 16px;
     padding-right: 16px;
