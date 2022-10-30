@@ -4,17 +4,9 @@
   line-height: 22px;
   font-weight: 400;
   text-decoration-line: underline;
-
+  letter-spacing: 0px;
 }
 
 .place__link:hover {
   opacity: 0.8;
-
-}
-
-@media screen and (max-width: 768px) {
-  .place__link {
-    padding-left: 16px;
-
-  }
 }

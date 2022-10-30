@@ -6,5 +6,10 @@
   flex-direction: row;
   align-items: flex-end;
   list-style: none;
+}
 
+@media screen and (max-width: 767px) {
+  .header__lang {
+    margin-bottom: 6px;
+  }
 }

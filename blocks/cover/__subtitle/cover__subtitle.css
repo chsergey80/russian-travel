@@ -9,16 +9,15 @@
   font-weight: 400;
   text-align: center;
   z-index: 1;
-
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover__subtitle {
     margin-top: 16px;
     max-width: 288px;      /* исправлено замечание*/
-    width:  100%;          /* исправлено замечание*/
+    /*width:  100%;*/          /* исправлено замечание 2 итерация, я забыл про наследование*/
     font-size: 14px;
     line-height: 16px;
-
+    letter-spacing: 0.5px;
   }
 }

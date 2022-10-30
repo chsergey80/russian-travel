@@ -1,41 +1,71 @@
 .place {
   display: grid;
   grid-template-columns: 460px 484px;
-  grid-template-rows: 1fr min-content;
+  grid-template-rows: minmax(min-content, max-content) 1fr;
   column-gap: 40px;
   row-gap: 48px;
-  margin-bottom: 80px;
-
+  padding: 80px 148px 0 148px;       /* исправлено замечание 2 итерация*/ 
+  max-width: 984px;
+  letter-spacing:0px;
 }
 
 .place:last-child {
-  margin-bottom: 0;
-
+  padding-bottom: 0;
 }
 
-@media screen and (max-width: 1280px) {
+.place:first-child {
+  padding-top: 92px;
+}
+
+@media screen and (max-width: 1279px) {
   .place {
     grid-template-columns: 440px 456px;
     column-gap: 32px;
-
+    max-width: 928px;
+    padding: 80px 48px 0 48px;       /* исправлено замечание 2 итерация*/ 
+  }  
+  .place:first-child {
+    padding-top: 92px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: 340px 352px;
     column-gap: 28px;
-    margin-bottom: 73px;
-
+    padding: 73px 24px 0 24px;       /* исправлено замечание 2 итерация*/   
+    max-width: 720px;
+  }
+  .place:first-child {
+    padding-top: 88px;
+  } 
+  .place:nth-child(4) {
+    padding-top: 72px;
+  }
+  .place:nth-child(4) {
+    letter-spacing: -0.1px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place {
     grid-template-columns: 320px;
-    grid-template-rows: min-content min-content 1fr min-content;
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
     row-gap: 32px;
-    margin-bottom: 50px;
-    
+    padding: 50px 16px 0 16px;       /* исправлено замечание 2 итерация*/  
+    max-width: 320px;
+  }
+  .place:first-child {
+    padding-top: 64px;
+  } 
+  .place:nth-child(2) {
+    letter-spacing: -0.1px;
+  }
+  .place:nth-child(4) {
+    padding-top: 50px;
+    letter-spacing: 0.1px;
+  }
+  .place:nth-child(5) {
+    letter-spacing: -0.1px;
   }
 }

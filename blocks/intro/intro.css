@@ -4,32 +4,28 @@
   width: 100%;
   padding-top: 92px;
   padding-left: 148px;
-
 }
 
-/* разрешение 1024 */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .intro {
     max-width: 690px;
     padding-left: 48px;
-
   }
 }
-/* разрешение 768 */
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1023px) {
   .intro {
-    margin: 0 auto;
-    padding: 88px 0 0 0;     /* исправлено замечание*/
+    /*margin: 0 auto;*/
+    padding-top: 88px;
+    padding-left: 24px;
     max-width: 720px;
-    /*padding-top: 88px;*/
-
   }
 }
-/* разрешение 320 */
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767px) {
   .intro {
     max-width: 288px;
     padding-top: 64px;
-    
+    padding-left: 16px;
   }
 }

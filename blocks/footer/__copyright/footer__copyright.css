@@ -5,12 +5,10 @@
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
-
 }
 
-@media screen and (max-width: 768px) {
-  .footer__copyright {
-    line-height: 14px;
-    
-  }
+@media screen and (max-width: 767px) {
+.footer__copyright {
+  line-height: 14px;
+}
 }

@@ -1,19 +1,23 @@
 .lead__image {
   margin-top: 64px;
+  max-width: 984px;    /*исправлено замечание 2 итерация */
   width: 100%;
-
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .lead__image {
     margin-top: 56px;
-
+    max-width: 928px;    /*исправлено замечание 2 итерация */
   }
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
+  .lead_image {
+    max-width: 768px;    /*исправлено замечание 2 итерация */
+  }
+}
+@media screen and (max-width: 767px) {
   .lead__image {
     margin-top: 40px;
-    
+    max-width: 320px;    /*исправлено замечание 2 итерация */
   }
 }

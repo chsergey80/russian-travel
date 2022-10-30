@@ -1,41 +1,36 @@
 .footer {
   margin: 0 auto;
   max-width: 1184px;
-  width: 100%;
-  padding-top: 92px;
-  padding-bottom: 24px;
+  width: calc(100%-2*48px);
+  padding: 92px 0 24px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .footer {
     max-width: 928px;
-
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .footer {
     max-width: 720px;
     padding-top: 88px;
-
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer {
     margin: 0;
     padding-top: 64px;
     padding-left: 16px;
     max-width: 186px;
-    width: 100%;
+    /*width: 100%;   */        /* исправлено замечание 2 итерация*/
     min-height: 310px;
     flex-direction: column;
     align-items: flex-start;
-    
   }
 }

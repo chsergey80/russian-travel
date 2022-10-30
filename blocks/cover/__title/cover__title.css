@@ -1,6 +1,7 @@
 .cover__title {
   color: #FFFFFF;  
-  /*margin: 0; */       /* исправлено замечание*/
+  margin: 0;        /* исправлено замечание 2 итерация*/
+  padding: 0;       /* исправлено замечание 2 итерация*/ 
   max-width: 560px;     /* исправлено замечание*/
   width: 100%;          /* исправлено замечание*/
   font-size: 72px;
@@ -8,15 +9,13 @@
   font-weight: 900;
   text-align: center;
   z-index: 1;
-
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover__title {
     max-width: 288px;      /* исправлено замечание*/
-    width: 100%;          /* исправлено замечание*/
+    /*width: 100%;*/       /* исправлено замечание 2 итерация*/
     font-size: 32px;
     line-height: 35px;
-    
   }
 }
