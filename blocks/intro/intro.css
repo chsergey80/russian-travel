@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1279px) {
   .intro {
-    max-width: 690px;
+    /*max-width: 690px;*/       /* исправлено замечание 3 итерация*/
     padding-left: 48px;
   }
 }

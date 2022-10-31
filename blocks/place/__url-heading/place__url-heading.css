@@ -7,5 +7,5 @@
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;   /* исправлено замечание*/
-  letter-spacing: 0px;
+  /*letter-spacing: 0px;*/       /* исправлено замечание 3 итерация*/
 }

@@ -11,7 +11,8 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/      /* исправлено замечание 3 итерация*/
+    max-width: 328px;             /* исправлено замечание 3 итерация*/
   }
 }
 

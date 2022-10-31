@@ -1,6 +1,6 @@
 .intro__list-item {
-  color: #fff;  
+  color: #ffffff;   /* исправлено замечание 3 итерация/ цевет определен как #FFFFFF*/
   font-size: 12px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 700;   /* исправлено замечание 3 итерация*/
 }

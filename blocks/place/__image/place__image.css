@@ -1,10 +1,12 @@
 .place__image {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 767px) {
   .place__image {
-    margin-left: -16px;
+    /*margin-left: -16px;*/  /* исправлено замечание 3 итерация*/
+    position: relative;      /* исправлено замечание 3 итерация*/
+    right: 16px;             /* исправлено замечание 3 итерация*/
   }
 }

@@ -24,9 +24,9 @@
     max-width: 928px;
     padding: 80px 48px 0 48px;       /* исправлено замечание 2 итерация*/ 
   }  
-  .place:first-child {
+/*  .place:first-child {
     padding-top: 92px;
-  }
+  }*/                               /* исправлено замечание 3 итерация*/
 }
 
 @media screen and (max-width: 1023px) {
@@ -39,12 +39,12 @@
   .place:first-child {
     padding-top: 88px;
   } 
-  .place:nth-child(4) {
+  /*.place:nth-child(4) {
     padding-top: 72px;
   }
   .place:nth-child(4) {
     letter-spacing: -0.1px;
-  }
+  }*/                               /* исправлено замечание 3 итерация*/
 }
 
 @media screen and (max-width: 767px) {
@@ -58,14 +58,14 @@
   .place:first-child {
     padding-top: 64px;
   } 
-  .place:nth-child(2) {
+  /*.place:nth-child(2) {
     letter-spacing: -0.1px;
-  }
-  .place:nth-child(4) {
+  }*/                                 /* исправлено замечание 3 итерация*/
+  /*.place:nth-child(4) {
     padding-top: 50px;
-    letter-spacing: 0.1px;
-  }
-  .place:nth-child(5) {
+    letter-spacing: 0.1px;    
+  } */                                /* исправлено замечание 3 итерация*/
+  /*.place:nth-child(5) {
     letter-spacing: -0.1px;
-  }
+  }*/                                  /* исправлено замечание 3 итерация*/
 }
