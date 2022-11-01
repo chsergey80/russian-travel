@@ -54,7 +54,7 @@
     row-gap: 32px;
     padding: 50px 0 0 0;       /* исправлено замечание 2 итерация*/  
     max-width: 320px;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/            /* исправлено замечание 4 итерация*/
   }
   .place:first-child {
     padding-top: 64px;
