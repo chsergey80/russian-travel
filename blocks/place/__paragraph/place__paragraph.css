@@ -16,12 +16,15 @@
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 25px;
+    max-width: 352px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
     max-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
     /*line-height: 26px;*/    /* исправлено замечание 3 итерация*/
   }
 }

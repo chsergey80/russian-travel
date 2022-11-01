@@ -6,7 +6,7 @@
   row-gap: 48px;
   padding: 80px 148px 0 148px;       /* исправлено замечание 2 итерация*/ 
   max-width: 984px;
-  letter-spacing:0px;
+  /*letter-spacing:0px;*/
 }
 
 .place:last-child {
@@ -52,8 +52,9 @@
     grid-template-columns: 320px;
     grid-template-rows: repeat(4, minmax(min-content, max-content));
     row-gap: 32px;
-    padding: 50px 16px 0 16px;       /* исправлено замечание 2 итерация*/  
+    padding: 50px 0 0 0;       /* исправлено замечание 2 итерация*/  
     max-width: 320px;
+    overflow-x: hidden;
   }
   .place:first-child {
     padding-top: 64px;
