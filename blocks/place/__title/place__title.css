@@ -11,15 +11,12 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    /*letter-spacing: 1px;*/      /* исправлено замечание 3 итерация*/
     max-width: 327px;             /* исправлено замечание 4 итерация*/
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__title {
-    /*padding: 0 0 0 16px;   /* исправлено замечание*/
-    /*padding-left: 16px;*/    /* исправлено замечание*/
     font-size: 32px;
     line-height: 35px;
     padding-left: 16px;

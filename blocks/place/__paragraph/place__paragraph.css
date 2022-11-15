@@ -1,7 +1,6 @@
 .place__paragraph {
   color: #FFFFFF;
   margin: 0 0 26px 0;   /* исправлено замечание*/
-  /*margin-bottom: 26px;*/   /* исправлено замечание*/
   font-size: 18px;
   line-height: 29px;
   font-weight: 400;
@@ -25,6 +24,5 @@
     max-width: 288px;
     padding-left: 16px;
     padding-right: 16px;
-    /*line-height: 26px;*/    /* исправлено замечание 3 итерация*/
   }
 }

@@ -6,7 +6,6 @@
   row-gap: 48px;
   padding: 80px 148px 0 148px;       /* исправлено замечание 2 итерация*/ 
   max-width: 984px;
-  /*letter-spacing:0px;*/
 }
 
 .place:last-child {
@@ -23,28 +22,19 @@
     column-gap: 32px;
     max-width: 928px;
     padding: 80px 48px 0 48px;       /* исправлено замечание 2 итерация*/ 
-  }  
-/*  .place:first-child {
-    padding-top: 92px;
-  }*/                               /* исправлено замечание 3 итерация*/
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: 340px 352px;
     column-gap: 28px;
-    padding: 73px 24px 0 24px;       /* исправлено замечание 2 итерация*/   
+    padding: 73px 28px 0 24px;       /* исправлено замечание 2 итерация*/   
     max-width: 720px;
   }
   .place:first-child {
     padding-top: 88px;
-  } 
-  /*.place:nth-child(4) {
-    padding-top: 72px;
   }
-  .place:nth-child(4) {
-    letter-spacing: -0.1px;
-  }*/                               /* исправлено замечание 3 итерация*/
 }
 
 @media screen and (max-width: 767px) {
@@ -54,19 +44,8 @@
     row-gap: 32px;
     padding: 50px 0 0 0;       /* исправлено замечание 2 итерация*/  
     max-width: 320px;
-    /*overflow-x: hidden;*/            /* исправлено замечание 4 итерация*/
   }
   .place:first-child {
     padding-top: 64px;
-  } 
-  /*.place:nth-child(2) {
-    letter-spacing: -0.1px;
-  }*/                                 /* исправлено замечание 3 итерация*/
-  /*.place:nth-child(4) {
-    padding-top: 50px;
-    letter-spacing: 0.1px;    
-  } */                                /* исправлено замечание 3 итерация*/
-  /*.place:nth-child(5) {
-    letter-spacing: -0.1px;
-  }*/                                  /* исправлено замечание 3 итерация*/
+  }
 }

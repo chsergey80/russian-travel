@@ -1,6 +1,5 @@
 .cover__subtitle {
-  color: #FFFFFF; 
-  /*margin: 0;*/       /* исправлено замечание*/
+  color: #FFFFFF;
   margin:32px 0 0 0;   /* margin-top: 32px;*/
   max-width: 360px;    /* исправлено замечание*/
   width: 100%;          /* исправлено замечание*/
@@ -15,7 +14,6 @@
   .cover__subtitle {
     margin-top: 16px;
     max-width: 288px;      /* исправлено замечание*/
-    /*width:  100%;*/          /* исправлено замечание 2 итерация, я забыл про наследование*/
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.5px;

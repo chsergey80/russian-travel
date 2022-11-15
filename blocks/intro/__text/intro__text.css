@@ -3,17 +3,13 @@
   margin: 40px 0 0 0;    /* исправлено замечание*/
   max-width: 720px;      /* исправлено замечание*/
   width: 100%;
-  /*margin-top: 40px;*/   /* исправлено замечание*/
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
-  /*letter-spacing: -0.1px;*/     /* исправлено замечание 3 итерация*/
 }
 
 @media screen and (max-width: 767px) {
   .intro__text {
     max-width: 288px;   /* исправлено замечание*/
-    /*width: 100%; */       /* исправлено замечание 2 итерация*/
-    /*letter-spacing: 0px;*/
   }
 }
